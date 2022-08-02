@@ -1,5 +1,5 @@
 .container{
-    width: 1312px;
+    width: 1175px;
     margin: auto;
     /* border: solid 2px; */
 }
@@ -276,6 +276,9 @@
 .service-text{
     text-align: center;
 }
+.service-list :hover h3{
+    color: blue;
+}
 .service-text h3{
     padding-bottom: 10px;
     font-size: 20px;
@@ -296,22 +299,46 @@
     box-shadow: 0px 0px 20px #468dcb
 }
 /*portfolio stat*/
+.portfolio{
+    background-color:#F5F9FC;
+}
+.header{
+    height: 259px;
+}
+.our-portfolio{
+    text-align: center;
+    font-size: 40px;
+    padding-top: 20px;
+    color: #5c768d;
+}
+.paraline{
+    padding: 10px;
+    font-size:20px ;
+    padding-top: 40px;
+}
 .portfolio-list{
     display: flex;
     flex-wrap: wrap;
 }
 .portfolio-box{
-    width: 33.33%;
+    width: 30%;
     padding-left: 15px;
     padding-right: 15px;
+    padding-bottom: 20px;
 }
 .portfolio-content{
     position: relative;
+    overflow: hidden;
+}
+.portfolio-content:hover img{
+    transform: scale(1.2);
 }
 .portfolio-content img{
     display: block;
     width:100% ;
     height: auto;
+    transition: all 0.5s ease ;
+   
 }
 .portfolio-text{
     position: absolute;
@@ -323,7 +350,12 @@
     display: flex;   
 justify-content: center;
     align-items: center;
+    opacity: 0;
+    transform: all 0.3s ease;
 
+}
+.portfolio-box:hover .portfolio-text{
+    opacity: 1;
 }
 .portfolio-info h4{
     font-size: 22px;
@@ -331,6 +363,14 @@ justify-content: center;
     text-align: center;
     margin-bottom: 10px;
 
+}
+.portfolio-info{
+    transform: translateY(-20px);
+    transition: all 0.5s ease;
+}
+.portfolio-content:hover .portfolio-info{
+    transform: translateY(0px);
+    transition: all 0.5s ease;
 }
 .portfolio-info h5{
     font-size: 18px;
@@ -340,16 +380,77 @@ justify-content: center;
 
 }
 .portfolio-icon{
+     display: flex;
+     justify-content:space-around ;
+     margin-top: 10px;
+}
+.portfolio-icon a{
     display: block;
+    justify-content: space-around;
     width: 30px;
     height: 30px;
     background-color:white;
-    color:black;
+    color:blue;
+    border-radius: 100%;
+    line-height: 30px;
     text-align: center;
     text-decoration: none;
     line-height: 30px;
-    
+    margin-right: 10px;  
 }
+/* teams starts*/
+.teams-list{
+    display: flex;
+    flex-wrap: wrap;
+}
+.teams-box{
+    width: 23%;
+    position: relative;
+    padding: 10px;
+}
+.picture img{
+    width: 100%;
+    display: block;
+}
+.teams-h4{
+    font-size: 25px;
+    padding-top: 10px;
+    color: white;
+}
+.teams-h5{
+    font-size: 20px;
+    padding-top: 15px;
+    font-style: oblique;
+    color: white;
+}
+.teams-line{
+    height: 1px;
+    width: 60px;
+    background-color: white;
+    margin-left: 85PX;
+     margin-top: 15px;
+}
+.teams-text{
+    position: absolute;
+    top: 68%;
+    width: 80%;
+    text-align: center;
+    margin-left: 30px;
+    background: linear-gradient(360deg, rgb(92, 118, 141) 0%, rgba(92, 118, 141, 0.9) 35%, rgba(140, 167, 191, 0.8) 100%);
+    height: 130px;
+    border-radius: 5px;
+
+}
+.teams-icon{
+    padding-top: 20px;
+    color: #428BCA;
+}
+.teams-icon a{
+    color: white;
+    text-decoration: none;
+
+}
+
 
 
 
