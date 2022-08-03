@@ -398,7 +398,25 @@ justify-content: center;
     line-height: 30px;
     margin-right: 10px;  
 }
+.portfolio-icon a:hover{
+    color:blue;
+    background-color: #428BCA;
+}
 /* teams starts*/
+.teams-header{
+    height: 131px;
+}
+.ourteams{
+    font-size: 30px;
+    text-align: center;
+    padding-top: 10px;
+    color: #428BCA;
+}
+.ourpara{
+    font-size: 20px;
+    padding-top: 30px;
+    text-align: center;
+}
 .teams-list{
     display: flex;
     flex-wrap: wrap;
@@ -408,9 +426,18 @@ justify-content: center;
     position: relative;
     padding: 10px;
 }
+.picture{
+    overflow: hidden;
+}
 .picture img{
     width: 100%;
     display: block;
+    transition: all 0.5s ease;
+
+}
+.teams-box:hover img {
+    transform: scale(1.1);
+    
 }
 .teams-h4{
     font-size: 25px;
@@ -450,6 +477,124 @@ justify-content: center;
     text-decoration: none;
 
 }
+.teams-icon a:hover{
+    color: #428bca;
+
+}
+/*teams ends*/
+.faq{
+    background-color: #F5F9FC;
+    margin-top: 45px;
+}
+.asked{
+    text-align: center;
+    font-size: 40px;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    color: #428BCA;
+}
+.faq-box{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.faq1{
+    width: 50%;
+}
+.faq2{
+    width: 50%;
+}
+.h3-faq1{
+    font-size: 25px;
+    color: #428BCA;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 15px;
+}
+.p-faq1{
+    font-size: 20px;
+    padding-top: 30px;
+    width: 545px;
+}
+.h3-faq2{
+    font-size: 25px;
+    color: #428BCA;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 30px;
+}
+.p-faq2{
+    font-size: 20px;
+    padding-top: 25px;
+    width: 545px;
+}
+.h3-faq3{
+    font-size: 25px;
+    color: #428BCA;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 60px;
+}
+.p-faq3{
+    font-size: 20px;
+    padding-top: 20px;
+    width: 545px;
+   
+}
+.h3-faq4{
+    font-size: 25px;
+    color: #428BCA;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 15px;
+}
+.p-faq4{
+    font-size: 18px;
+    padding-bottom: 15px;
+}
+.h3-faq5{
+    font-size: 25px;
+    color: #428BCA;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 15px;
+}
+.p-faq5{
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+.h3-faq6{
+    font-size: 25px;
+    color: #428BCA;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 35px;
+}
+.p-faq6{
+    font-size: 20px;
+    padding-top: 20px;
+}
+/*contact starts*/
+.contact-1{
+    text-align: center;
+}
+.contact-box{
+    display: flex;
+}
+.box1{
+    width: 50%; 
+    margin: ;  
+
+}
+.box2{
+    width: 25%;
+}
+.box3{
+    width: 25%;
+}
+
+
+
+
+
+
+
+
+
 
 
 
