@@ -3,9 +3,13 @@
     margin: auto;
     /* border: solid 2px; */
 }
+.quick-contact{
+    border-bottom: solid 1px rgb(119, 116, 116);
+}
 .new1{
     display: flex;
     justify-content: space-between;
+    
 }
 .info{
     padding-top: 10px;
@@ -35,11 +39,59 @@
 .social-connect a:hover {
     color: #428BCA;
 }
-.new2{
+/*social-connect ends*/
+
+/*mamba starts*/
+.header-mamba{
+    width: 100%;
+    height: 60px;
+    background-color:white;
+
+}
+.mamba-content{
+    color: #428BCA;
+    font-size: 40px;
+    padding-top: 5px;
+}
+.mamba{
     display: flex;
     justify-content: space-between;
-    height: 71px;
 }
+.mamba-list ul li{
+    display:inline-block ;    
+}
+.mamba-list ul a {
+font-size: 20px;
+}
+.mamba-list ul li{
+    height: 40px;
+    line-height: 40px;
+    padding: 0 10px  
+}
+
+.mamba-list ul a:hover{
+    color: blue;
+}
+.mamba-list ul a:nth-child(6){
+    position: relative;
+}
+.mamba-list ul .submenu{
+    position: absolute;
+    background-color: #587187;
+    left: 0;
+    z-index: 1000;
+    display: none;
+}
+.mamba-list ul a:nth-child(6):hover .submenu{
+    display: block;
+}
+.submenu li:hover{
+    background-color: white;
+}
+.mamba-list 
+/*mamba ends*/
+
+/*banner-starts*/
 .banner{
     width: 100%;
     height: 500px;
@@ -51,12 +103,12 @@
     background-image: url(../slide-1.jpg);
     width: 100%;
     height: 500px;
-    background-size: cover;      
+    background-size: cover;    
+    position: relative;  
 }
 .banner .bgimage::after{
     content: "";
     background: rgba(0 0 0/0.6);
-
     position: absolute;
     top: 0;
     width: 100%;
@@ -94,6 +146,9 @@
     right: 10%;
     
 }
+/*mamba ends*/
+
+/*about-us* start*/
 .new4{
     height: 579px;
     display: flex;
